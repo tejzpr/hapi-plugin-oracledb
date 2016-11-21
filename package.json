@@ -1,6 +1,6 @@
 {
   "name": "hapi-plugin-oracledb",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "Hapi plugin for OracleDB",
   "main": "lib/index.js",
   "private": false,
@@ -22,7 +22,8 @@
   "dependencies": {
     "hoek": "4.x.x",
     "oracledb": "1.11.x",
-	"simple-oracledb": "1.1.x"
+	"simple-oracledb": "1.1.x",
+	"death": "^1.0.0",
   },
   "peerDependencies": {
     "hapi": ">=15.x.x"
