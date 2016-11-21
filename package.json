@@ -1,0 +1,35 @@
+{
+  "name": "hapi-plugin-oracledb",
+  "version": "0.0.1",
+  "description": "Hapi plugin for OracleDB",
+  "main": "lib/index.js",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tejzpr/hapi-plugin-oracledb.git"
+  },
+  "keywords": [
+    "hapi",
+    "oracledb",
+    "plugin"
+  ],
+  "author": "Tejus Pratap <tejzpr@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tejzpr/hapi-plugin-oracledb/issues"
+  },
+  "homepage": "https://github.com/tejzpr/hapi-plugin-oracledb",
+  "dependencies": {
+    "hoek": "4.x.x",
+    "oracledb": "1.11.x"
+  },
+  "peerDependencies": {
+    "hapi": ">=15.x.x"
+  },
+  "engines": {
+    "node": ">=5.0.0"
+  },
+  "devDependencies": {
+    "hapi": "15.x.x"
+  }
+}
