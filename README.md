@@ -65,7 +65,26 @@ server.register({
      }
  );
  ```
-## Manual Connection Initilization Using server.getDB()
+## Querying Using injected pool connection
+```javascript
+server.route({
+        method: 'GET',
+        path: '/teamhierarchy/{employeenumbers}',
+        config: {
+            plugins:{
+                'oracledb': true  //No need to pass this here if already passed at Plugin Realm level
+            }
+        },
+        handler: function (request, reply) {
+		var query = 'select firstname,lastname from users';
+		request.app.db.execute(query,function (err,result) {
+                    reply(result);
+                });
+	}
+});
+```
+ 
+## Querying Using server.getDB()
  
 Via `request.app.db`. You can also manualy get a connection from the server via `server.getDb(function (err, connection) {})`.
 ```javascript
