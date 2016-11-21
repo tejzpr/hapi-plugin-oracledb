@@ -60,7 +60,8 @@ server.register({
      }
  );
  ```
- ## Manual Connection Initilization Using server.getDB()
+## Manual Connection Initilization Using server.getDB()
+ 
 Via `request.app.db`. You can also manualy get a connection from the server via `server.getDb(function (err, connection) {})`.
 ```javascript
 server.route({ 
