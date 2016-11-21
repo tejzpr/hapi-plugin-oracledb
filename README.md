@@ -11,7 +11,7 @@ Via `request.app.db`. You can also manualy get a connection from the server via 
 server.register({
 	register: require('hapi-plugin-oracledb'),
 	options: {
-		connectionString: "localhost:1521/servicename",
+		connectString: "localhost:1521/servicename",
 		user: "root",
 		password: "",
 		log: true
