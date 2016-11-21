@@ -1,5 +1,10 @@
 > #Hapi plugin for OracleDB
+[![NPM version][npm-image]][npm-url]
 
+### Installation (via [npm](https://npmjs.org/package/hapi-plugin-oracledb))
+```bash
+  $ npm install hapi-plugin-oracledb --save
+```  
 
 ## What does this plugin do?
 Initialize a Oracle database connection pool and either attach a OracleDB connection to every request or enable the user to manually use connection from the server via `server.getDb(function (err, connection) {})`.
@@ -82,3 +87,10 @@ server.route({
 		} 
 	});
 ```
+
+### License
+
+[MIT](http://www.opensource.org/licenses/mit-license.php)
+
+[npm-image]: https://img.shields.io/npm/v/hapi-plugin-oracledb.svg?style=flat-square
+[npm-url]: https://npmjs.org/package/hapi-plugin-oracledb
