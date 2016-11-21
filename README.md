@@ -25,8 +25,10 @@ server.route({
 	method: 'GET', 
 	path: '/', 
 	handler: function (request, reply) { 
-			request.app.db.query(...);
-			return reply('ok'); 
+			var query = 'select firstname,lastname from users';
+			request.app.db.execute(query,function (err,result) {
+              reply(result);
+            });
 		} 
 	});
 ```
