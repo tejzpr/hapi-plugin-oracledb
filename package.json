@@ -1,6 +1,6 @@
 {
   "name": "hapi-plugin-oracledb",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "Hapi plugin for OracleDB",
   "main": "lib/index.js",
   "private": false,
