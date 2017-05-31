@@ -19,8 +19,7 @@ server.register({
 	options: {
 		connectString: "localhost:1521/servicename",
 		user: "root",
-		password: "",
-		log: true
+		password: ""
 	}
 }, function (err) {
 	if (err) console.log(err);
