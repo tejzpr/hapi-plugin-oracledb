@@ -1,4 +1,4 @@
-> #Hapi plugin for OracleDB
+# Hapi plugin for OracleDB
 [![NPM version][npm-image]][npm-url] [![Known Vulnerabilities](https://snyk.io/test/github/tejzpr/hapi-plugin-oracledb/badge.svg)](https://snyk.io/test/github/tejzpr/hapi-plugin-oracledb)
 
 ### Installation (via [npm](https://npmjs.org/package/hapi-plugin-oracledb))
